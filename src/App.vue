@@ -2,12 +2,16 @@
   <child-component></child-component>
   <filter-custom />
   <multiy-filter />
+  <login-page />
+  <static-data />
 </template>
 
 <script>
 import ChildComponent from "./components/ListAndFilter.vue";
 import FilterCustom from './components/FilterCustom.vue';
 import MultiyFilter from './components/MultiyFilter.vue';
+import LoginPage from './components/LoginPage.vue'
+import StaticData from './components/StaticData.vue'
 
 export default {
   name: "App",
@@ -15,6 +19,8 @@ export default {
     ChildComponent,
     FilterCustom,
     MultiyFilter,
+    LoginPage,
+    StaticData,
   }
 };
 </script>
